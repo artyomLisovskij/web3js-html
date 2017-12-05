@@ -34,3 +34,14 @@
 
 6. Апостиль. Есть две стороны - пользователи и вузы. Пользователь предлагает свои данные и данные диплома на подтерждение.
 Owner добавляет аккаунт вуза для подтверждения. Аккаунт вуза может подтвердить диплом и он становится approved или отвергнуть.
+
+# TODO:
+- для вызова транзакций:
+
+var options = { from: '0x123...', gas: '300000'}; 
+
+contract.YOUR_METHOD.sendTransaction( ARGUMENTS, options, callback);
+
+- для вызова read-only методов
+
+contract.YOUR_METHOD( arguments, callback);
